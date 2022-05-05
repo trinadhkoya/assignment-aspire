@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "aspire-app-assignment",
+    "slug": "aspire-app-assignment",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo@2x.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c365a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "io.trinadhkoya.github",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#0C365A"
+      },
+      "package": "io.trinadhkoya.github",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/Logo@3x.png"
+    }
+  }
+}
